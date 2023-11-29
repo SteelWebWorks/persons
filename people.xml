@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+    <person>
+        <tax_identifier>9591297897</tax_identifier>
+        <fullname>Pál János</fullname>
+        <identifier>3</identifier>
+        <other_identifier>1</other_identifier>
+        <login>2023-01-23</login>
+        <logout>2023-01-25</logout>
+        <email></email>
+    </person>
+    <person>
+        <tax_identifier>4956725365</tax_identifier>
+        <fullname>Kerekes Tamás</fullname>
+        <identifier>6</identifier>
+        <other_identifier>2</other_identifier>
+        <login>2023-02-22</login>
+        <logout>2023-02-28</logout>
+        <email>k.tamas@gmail.com</email>
+    </person>
+    <person>
+        <tax_identifier>7479100150</tax_identifier>
+        <fullname>Székely Valentin</fullname>
+        <identifier>10</identifier>
+        <other_identifier>3</other_identifier>
+        <login>2023-05-30</login>
+        <logout>2023-06-16</logout>
+        <email>valetin.szekely@gmail.com</email>
+    </person>
+    <person>
+        <tax_identifier>3792801846</tax_identifier>
+        <fullname>Fehér Áron</fullname>
+        <identifier>2</identifier>
+        <other_identifier>4</other_identifier>
+        <login>2023-08-03</login>
+        <logout>2023-08-08</logout>
+        <email>a.feher@gmail.com</email>
+    </person>
+    <person>
+        <tax_identifier>7824098513</tax_identifier>
+        <fullname>Kis Ferenc</fullname>
+        <identifier>7</identifier>
+        <other_identifier>5</other_identifier>
+        <login>2023-08-30</login>
+        <logout>2023-10-24</logout>
+        <email>kis.ferenc@gmail.com</email>
+    </person>
+    <person>
+        <tax_identifier></tax_identifier>
+        <fullname>Hegedüs Botond</fullname>
+        <identifier>9</identifier>
+        <other_identifier>6</other_identifier>
+        <login>2023-10-26</login>
+        <logout>2023-11-24</logout>
+        <email>botondhegedus99@gmail.com</email>
+    </person>
+</people>

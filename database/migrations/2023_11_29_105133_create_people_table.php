@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->integer('tax_identification_number')->unsigned();
             $table->string('fullname');
-            $table->integer('identifier')->unsigned();
-            $table->integer('other_identifier')->unsigned();
+            $table->integer('identifier')->unsigned()->unique();
+            $table->integer('other_identifier')->unsigned()->unique();
             $table->string('email');
             $table->timestamps();
         });
