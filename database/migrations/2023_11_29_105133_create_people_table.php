@@ -13,10 +13,12 @@ return new class extends Migration
     {
         Schema::create('people', function (Blueprint $table) {
             $table->id();
-            $table->integer('tax_identification_number')->unsigned();
+            $table->bigInteger('tax_identifier')->unsigned();
             $table->string('fullname');
             $table->integer('identifier')->unsigned()->unique();
             $table->integer('other_identifier')->unsigned()->unique();
+            $table->date('login');
+            $table->date('logout');
             $table->string('email');
             $table->timestamps();
         });

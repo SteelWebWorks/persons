@@ -10,6 +10,10 @@ class Log extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'success',
+    ];
+
     public function person(): BelongsTo
     {
         return $this->belongsTo(Person::class, 'identifier', 'person_identifier');

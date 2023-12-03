@@ -14,8 +14,7 @@ return new class extends Migration
         Schema::create('logs', function (Blueprint $table) {
             $table->id();
             $table->integer('person_identifier');
-            $table->date('login');
-            $table->date('logout');
+            $table->boolean('success');
             $table->timestamps();
         });
     }
